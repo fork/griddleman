@@ -1,0 +1,19 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+
+    <!-- Use title if it's in the page YAML frontmatter -->
+    <title><%= current_page.data.title || "The Middleman" %></title>
+
+    <%= stylesheet_link_tag "all" %>
+    <%= javascript_include_tag  "all" %>
+  </head>
+
+  <body class="<%= page_classes %>">
+    <%= yield %>
+    <!--[if lt IE 9]>
+      <%= javascript_include_tag  "vendor/rem.min", "vendor/respond.min", "vendor/html5shiv.min" %>
+    <![endif]-->
+  </body>
+</html>
