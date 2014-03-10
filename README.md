@@ -7,8 +7,8 @@ Middleman template that includes just the Foundation 5 grid including some polyf
 
 Clone into ~/.middleman (you'll have to create this directory if it's not already there). You can then use it with the `--template` flag on `middleman init`.
 
-1. $ `git clone git://github.com/fork/griddleman.git ~/.middleman/griddleman`
-2. $ `middleman init my_new_project --template=griddleman`
+    $ git clone git://github.com/fork/griddleman.git ~/.middleman/griddleman
+    $ middleman init my_new_project --template=griddleman
 
 For more help follow [Middleman's project template instructions](http://middlemanapp.com/getting-started/welcome/).
 
